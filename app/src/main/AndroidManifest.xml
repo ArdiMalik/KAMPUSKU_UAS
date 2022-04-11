@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.malik.kampusku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeTwo">
+        <activity
+            android:name="com.malik.kampusku.DetailDataActivity"
+            android:label="Detail Data"
+            android:parentActivityName="com.malik.kampusku.DetailDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malik.kampusku.UpdateDataActivity"
+            android:label="Update Data"
+            android:parentActivityName="com.malik.kampusku.UpdateDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malik.kampusku.InformasiActivity"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="com.malik.kampusku.InformasiActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malik.kampusku.InputDataActivity"
+            android:label="Input Data"
+            android:parentActivityName="com.malik.kampusku.InputDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malik.kampusku.DataMahasiswaActivity"
+            android:label="Data Mahasiswa"
+            android:parentActivityName="com.malik.kampusku.DataMahasiswaActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.malik.kampusku.SplashScreenActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.malik.kampusku.MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
